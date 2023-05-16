@@ -19,12 +19,15 @@ app.get('/', (req, res) => {
     console.log('Hello! This is the home page...')
 })
 
-// Routes
+// Import the modules
+
+// Register the routes
+
 
 
 // const api = process.env.API_URL
 
-// port = process.env.PORT || 3001;
+
 
 app.listen(process.env.PORT, () => {
     console.log(`Server is running on port ${process.env.PORT}`);
